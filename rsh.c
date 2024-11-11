@@ -16,7 +16,7 @@ int isAllowed(const char*cmd) {
         // return 1 if cmd is one of the allowed commands
         // return 0 otherwise
         for (int i=0; i<N; i++){
-            if (strcmp(cmd, allowed[i]) == 1){
+            if (strcmp(cmd, allowed[i]) == 0){
                 return 1;
             }
         }
